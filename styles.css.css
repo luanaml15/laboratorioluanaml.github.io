@@ -1,0 +1,286 @@
+/* ==========================================================================
+   ESTILO EDITORIAL: Paleta Limpia Blueberry & Off-White
+   ========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5c6b8a; /* Berry Bloom */
+    margin: 0;
+    padding: 40px 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2f3a55; /* Blueberry Skin */
+    display: flex;
+    justify-content: center;
+}
+
+/* Lienzo de la página (Simulación de papel editorial premium) */
+.lienzo-pagina {
+    width: 80%;
+    max-width: 900px;
+    background-color: #f5f6f3; /* Plate White */
+    padding: 50px;
+    border-radius: 32px;
+    box-shadow: 0 30px 60px rgba(47, 58, 85, 0.15);
+}
+
+/* Menú de navegación */
+.menu-navegacion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(47, 58, 85, 0.1);
+}
+
+.enlaces-nav a {
+    color: #2f3a55;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+/* Sección Hero */
+.seccion-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+.columna-titulo {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* TÍTULO PRINCIPAL: Limpio, simétrico y en mayúsculas rotundas */
+.titulo-principal {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 64px; 
+    font-weight: 800;
+    line-height: 1.0;
+    color: #2f3a55;
+    margin: 0 0 20px 0;
+    letter-spacing: -2px;
+    text-transform: uppercase; 
+}
+
+/* Subtítulo conceptual */
+.subtitulo-concepto {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #5c6b8a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* Silueta abstracta */
+.columna-silueta {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.silueta-organica {
+    width: 130px;
+    height: 130px;
+    background-color: #2f3a55;
+    border-radius: 50% 10% 50% 50%;
+}
+
+/* Párrafo de lectura */
+.seccion-manifiesto {
+    margin-bottom: 60px;
+    max-width: 640px;
+}
+
+.texto-manifiesto {
+    font-size: 19px;
+    font-weight: 400; 
+    line-height: 1.6;
+    color: #2f3a55;
+}
+
+/* Sección de video */
+.seccion-video {
+    margin-bottom: 60px;
+}
+
+.intro-video {
+    margin-bottom: 25px;
+}
+
+/* Subtítulos de sección uniformes */
+.subtitulo-video-seccion {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin: 0 0 10px 0;
+    color: #2f3a55;
+    text-transform: uppercase;
+}
+
+.texto-intro-video {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #2f3a55;
+    margin: 0;
+}
+
+.contenedor-video-fluido {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.contenedor-video-fluido iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion-video {
+    display: block;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #5c6b8a;
+    margin: 0;
+}
+
+/* Estructura de fases (Página 2) */
+.seccion-fases-desglose {
+    margin-bottom: 60px;
+}
+
+.subtitulo-fases {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}
+
+.contenedor-fases-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.item-fase {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(47, 58, 85, 0.1);
+}
+
+.numero-fase {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1;
+    color: #5c6b8a;
+}
+
+.info-fase h4 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+}
+
+.info-fase p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    color: #2f3a55;
+}
+
+/* Tarjeta destacada bloque de información */
+.tarjeta-caracteristica {
+    margin-bottom: 60px;
+}
+
+.bloque-azul-info {
+    background-color: #2f3a55; 
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.bloque-azul-info h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #f5f6f3; 
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.texto-blanco {
+    color: #f5f6f3 !important;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Imagen integrada */
+.imagen-catalogo {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    display: block;
+}
+
+/* Pie de página */
+.pie-pagina {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(47, 58, 85, 0.1);
+}
+
+.enlace-global {
+    color: #2f3a55;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-bottom: 2px solid #2f3a55;
+    padding-bottom: 4px;
+}
+
+.boton-siguiente {
+    background-color: transparent;
+    color: #2f3a55;
+    border: 2px solid #2f3a55;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+}
+
+.boton-siguiente:hover {
+    background-color: #2f3a55;
+    color: #f5f6f3;
+}
