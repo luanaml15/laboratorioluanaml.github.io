@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El diseñador gráfico como gestor de comunicación en ONGs</title>
+  <style>
+    /* --- Variables de Diseño (Colores y Tipografía) --- */
+    :root {
+      --bg-color: #fcfcf9;
+      --text-color: #2c3531;
+      --primary-color: #116466;
+      --accent-color: #d1e8e2;
+      --card-bg: #ffffff;
+      --max-width: 750px;
+    }
+
+    /* --- Estilos Generales --- */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 2.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    }
+
+    /* --- Tipografía y Jerarquías --- */
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 2px solid var(--accent-color);
+      padding-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      color: var(--text-color);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .author {
+      font-size: 1.1rem;
+      color: var(--primary-color);
+      font-weight: 500;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--primary-color);
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      text-align: justify;
+    }
+
+    /* --- Componentes Especiales --- */
+    blockquote {
+      background-color: var(--accent-color);
+      color: var(--text-color);
+      padding: 1rem 1.5rem;
+      border-left: 4px solid var(--primary-color);
+      margin: 1.5rem 0;
+      font-style: italic;
+      border-radius: 0 4px 4px 0;
+    }
+
+    ul {
+      margin-bottom: 1.5rem;
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    strong {
+      color: #000000;
+    }
+
+    /* --- Footer / Fuentes --- */
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px dashed var(--primary-color);
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    footer h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: var(--text-color);
+    }
+
+    footer a {
+      color: var(--primary-color);
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* --- Adaptabilidad (Responsive) --- */
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem 0.5rem;
+      }
+
+      .container {
+        padding: 1.5rem;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <h1>El diseñador gráfico como gestor de comunicación en organizaciones sociales (ONGs)</h1>
+      <div class="author">Por Álvaro Xavier Jiménez</div>
+    </header>
+
+    <section>
+      <h2>El diseño como herramienta social</h2>
+      <p>El diseño gráfico suele asociarse con la publicidad, el consumo y el mercado. Además de su función comercial, también puede contribuir a procesos de comunicación y transformación social.</p> <p>El diseñador gráfico no solo puede crear piezas visuales, sino también participar activamente en procesos de comunicación y transformación dentro de organizaciones sociales.</p>
+      <blockquote>“El diseño también puede convertirse en una herramienta de cambio social.”</blockquote>
+    </section>
+
+    <section>
+      <h2>¿Por qué surge esta investigación?</h2>
+      <p>La investigación nace a partir de dos aspectos principales:</p>
+      <ul>
+        <li><strong>Preocupación social:</strong> cómo esta disciplina puede contribuir a la comunidad más allá de los intereses comerciales del mercado.</li>
+        <li><strong>Experiencia en territorio:</strong> el trabajo se basa en experiencias profesionales dentro de organizaciones sociales, donde el rol del diseñador superó las tareas técnicas y exigió capacidades vinculadas con la participación, la comunicación y el análisis social.</li>
+      </ul>
+      <p>Estas experiencias impulsan una reflexión profunda sobre las responsabilidades actuales del diseñador dentro del contexto social y medioambiental.</p>
+    </section>
+
+    <section>
+      <h2>El diseñador como gestor de comunicación</h2>
+      <p>El rol del diseñador gráfico puede entenderse desde una perspectiva más amplia. Además de producir piezas gráficas, también puede intervenir de forma estratégica en estrategias de comunicación institucional, organización de procesos y dinámicas grupales, planificación y desarrollo de la identidad de la organización, y construcción de vínculos con la comunidad.</p>
+      <p>Desde esta perspectiva, el diseño deja de enfocarse únicamente en el producto visual final y pasa a integrarse dentro de procesos comunicacionales más amplios.</p>
+    </section>
+
+    <section>
+      <h2>Diseño y organizaciones sociales</h2>
+      <p>En las ONGs, la comunicación cumple un rol fundamental para el funcionamiento y desarrollo de la organización.</p>
+      <p>Una <strong>gestión estratégica del diseño</strong> permite transmitir objetivos de manera clara, fortalecer la identidad institucional, mejorar el vínculo con la comunidad y potenciar el alcance de los proyectos sociales. Por eso, el diseño funciona como una herramienta estratégica y no solamente estética.</p>
+    </section>
+
+    <section>
+      <h2>Desarrollo de la investigación</h2>
+      <p>El trabajo se organiza en distintas etapas.</p>
+      <p><strong>Primera instancia:</strong> se analizan la función social del diseño y las problemáticas de comunicación presentes en las organizaciones del tercer sector.</p>
+      <p><strong>Segunda instancia:</strong> se profundiza en el nuevo rol del diseñador como gestor y en las responsabilidades que este debe asumir.</p>
+      <p><strong>Fase final:</strong> se realiza una investigación de campo basada en diagnósticos participativos para construir una propuesta metodológica orientada a mejorar la comunicación institucional.</p>
+    </section>
+
+    <section>
+      <h2>Conclusión</h2>
+      <p>Esta investigación invita a repensar el rol del diseñador gráfico desde una mirada más humana, crítica y participativa. De esta manera, el diseñador deja de ser únicamente un ejecutor visual para convertirse también en un facilitador de procesos y un agente capaz de generar transformaciones dentro de las organizaciones sociales.</p>
+    </section>
+
+  </div>
+
+</body>
+
+</html>
